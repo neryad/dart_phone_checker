@@ -1,12 +1,9 @@
-telephoneCheck(String str) {
-  String pattern = r'(^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$)';
-  RegExp regExp = new RegExp(pattern);
+class TelephoneChecker {
+  static bool isValid(String str) {
+    String pattern =
+        r'^(\+?\d{1,3}[-.\s]?)?(\(?\d{1,4}\)?[-.\s]?)?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$';
+    RegExp regExp = RegExp(pattern);
 
-  if (regExp.hasMatch(str)) {
-    print('The number: $str you entered is valid');
-    return true;
-  } else {
-    print('The number: $str you entered is invalid');
-    return false;
+    return regExp.hasMatch(str);
   }
 }

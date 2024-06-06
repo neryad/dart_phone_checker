@@ -6,13 +6,14 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var validTelefone = telephoneCheck('+18095563254');
+    String number = "1-800-555-5555";
     String resultString = '';
-
-    if (validTelefone) {
-      resultString = 'Valid :)';
+    if (TelephoneChecker.isValid(number)) {
+      print('The number: $number you entered is valid');
+      resultString = 'The number: $number you entered is valid';
     } else {
-      resultString = 'Not Valid :(';
+      resultString = 'The number: $number you entered is valid';
+      print('The number: $number you entered is invalid');
     }
 
     return MaterialApp(
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            child: Text('Hello the number is: $resultString'),
+            child: Text(resultString),
           ),
         ),
       ),
