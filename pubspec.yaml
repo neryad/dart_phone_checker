@@ -1,7 +1,8 @@
 name: telephone_check
 description: This package will help you to validate if a telephone number is well written.
-version: 0.1.1
+version: 0.1.2
 homepage: https://neryad.dev/
+repository: https://github.com/neryad/dart_phone_checker.git
 
 environment:
   sdk: '>=2.12.0 <4.0.0'

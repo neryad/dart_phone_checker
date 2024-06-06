@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2024-06-06
+
+- added repo.
+
 ## [0.1.0] - 2024-06-06
 
 ### Code Improvements
