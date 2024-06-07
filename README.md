@@ -22,7 +22,7 @@ This will add a line like this to your package's pubspec.yaml (and run an implic
 
 ```bash
 dependencies:
- telephone_check: ^0.1.0
+ telephone_check: ^0.1.3
 ```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
@@ -148,3 +148,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![Pub Publisher](https://img.shields.io/pub/publisher/telephone_check)
 ![](https://img.shields.io/badge/dart-blue?logo=dart&logoColor=white)
+
+## Changelog
+
+To view the history of changes, refer to [CHANGELOG.md](./CHANGELOG.md).
