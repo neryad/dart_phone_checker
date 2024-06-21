@@ -120,6 +120,13 @@ You can use various types of telephone numbers and codes such as:
 - +57 333 3717545 (CO)
 - and more.
 
+## Looking for the npm Version?
+
+### Also available on npm! Check it out:
+[![NPM Badge](https://img.shields.io/badge/NPM-TelephoneCheck-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/telephonecheck)
+[![GitHub Repo](https://img.shields.io/badge/Repository-GitHub-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neryad/ts-phone-validtor.git)
+
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on GitHub.
